@@ -1,0 +1,48 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 900;
+    src: url('./eot/IRANSansWeb_Medium.eot');
+    src: url('./eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('./woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url('./woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('./ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+h1, h2, h3, h4, h5, h6, a, div, button, p,input, textarea, span {
+    font-family: IRANSans !important;
+}
+body{
+    font-family: "IRANSans",Helvetica,Geneva,Verdana,sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #0a58ca;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+/*
+ * Footer
+ */
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
